@@ -47,6 +47,22 @@ public class NumberSorterTest {
         assertEquals(100, newLargestNumber);
     }
 
+    @Test
+    public void shouldReturnAllNumbersSmallestToLargestAsString() {
+        String allNumbers = testNumberSorter.getAllNumbersSmallestToLargest();
+        assertEquals("2 10 30 ", allNumbers);
+    }
 
+    @Test
+    public void shouldReturnAllNumbersLargestToSmallestAsString(){
+        String allNumbers = testNumberSorter.getAllNumbersLargestToSmallest();
+        assertEquals("30 10 2 ", allNumbers);
+    }
+
+    @Test
+    public void shouldReturnAverageOfNumbers(){
+        int actualAverage = testNumberSorter.getAverage();
+        assertEquals(14, actualAverage);
+    }
 
 }

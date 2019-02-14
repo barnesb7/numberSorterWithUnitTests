@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112b9dcf-9cd3-40bd-b938-4d4b08bdb880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NumberSorterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/NumberSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/NumberSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/NumberSorterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/NumberSorterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NumberSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NumberSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumberSorterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,23 +27,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/NumberSorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="344">
+              <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="628" column="7" lean-forward="true" selection-start-line="628" selection-start-column="7" selection-end-line="628" selection-end-column="7" />
-              <folding>
-                <element signature="e#24178#24179#0" expanded="true" />
-                <element signature="e#24230#24231#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,14 +39,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NumberSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="284">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,7 +74,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="122" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -129,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550157742382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550167919839" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -155,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumberSorterTest">
+  <component name="RunManager" selected="JUnit.NumberSorterTest.shouldReturnAverageOfNumbers">
     <configuration name="NumberSorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.detroitlabs.NumberSorter.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -165,11 +153,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSorterTest.shouldAddANumberToCollectionOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberSorterTest.shouldReturnAllNumbersLargestToSmallestAsString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.detroitlabs.NumberSorter.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumberSorterTest" />
-      <option name="METHOD_NAME" value="shouldAddANumberToCollectionOfNumbers" />
+      <option name="METHOD_NAME" value="shouldReturnAllNumbersLargestToSmallestAsString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberSorterTest.shouldReturnAllNumbersSmallestToLargestAsString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.detroitlabs.NumberSorter.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberSorterTest" />
+      <option name="METHOD_NAME" value="shouldReturnAllNumbersSmallestToLargestAsString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberSorterTest.shouldReturnAverageOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.detroitlabs.NumberSorter.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberSorterTest" />
+      <option name="METHOD_NAME" value="shouldReturnAverageOfNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,22 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSorterTest.shouldReturnSmallestNumberInCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.detroitlabs.NumberSorter.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumberSorterTest" />
-      <option name="METHOD_NAME" value="shouldReturnSmallestNumberInCollection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberSorterTest.shouldReturnAverageOfNumbers" />
+        <item itemvalue="JUnit.NumberSorterTest.shouldReturnAllNumbersLargestToSmallestAsString" />
         <item itemvalue="JUnit.NumberSorterTest" />
+        <item itemvalue="JUnit.NumberSorterTest.shouldReturnAllNumbersSmallestToLargestAsString" />
         <item itemvalue="JUnit.NumberSorterTest.shouldReturnLargestNumber" />
-        <item itemvalue="JUnit.NumberSorterTest.shouldReturnSmallestNumberInCollection" />
-        <item itemvalue="JUnit.NumberSorterTest.shouldAddANumberToCollectionOfNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -214,47 +213,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550154777079</updated>
-      <workItem from="1550154780969" duration="2926000" />
+      <workItem from="1550154780969" duration="6749000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberSorterTest_shouldReturnSmallestNumberInCollection - 2019.02.14 at 10h 02m 34s.xml">
-      <configuration name="NumberSorterTest.shouldReturnSmallestNumberInCollection" configurationId="JUnit" />
+    <history-entry file="NumberSorterTest_shouldReturnAllNumbersSmallestToLargestAsString - 2019.02.14 at 11h 34m 50s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAllNumbersSmallestToLargestAsString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberSorterTest - 2019.02.14 at 10h 03m 48s.xml">
+    <history-entry file="NumberSorterTest_shouldReturnAllNumbersSmallestToLargestAsString - 2019.02.14 at 11h 35m 14s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAllNumbersSmallestToLargestAsString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberSorterTest_shouldReturnAllNumbersSmallestToLargestAsString - 2019.02.14 at 11h 35m 46s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAllNumbersSmallestToLargestAsString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberSorterTest - 2019.02.14 at 11h 35m 57s.xml">
       <configuration name="NumberSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberSorterTest - 2019.02.14 at 10h 09m 01s.xml">
-      <configuration name="NumberSorterTest" configurationId="JUnit" />
+    <history-entry file="NumberSorterTest_shouldReturnAllNumbersLargestToSmallestAsString - 2019.02.14 at 11h 56m 26s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAllNumbersLargestToSmallestAsString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberSorterTest_shouldReturnLargestNumber - 2019.02.14 at 10h 12m 25s.xml">
-      <configuration name="NumberSorterTest.shouldReturnLargestNumber" configurationId="JUnit" />
+    <history-entry file="NumberSorterTest_shouldReturnAllNumbersLargestToSmallestAsString - 2019.02.14 at 11h 56m 37s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAllNumbersLargestToSmallestAsString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberSorterTest_shouldReturnLargestNumber - 2019.02.14 at 10h 16m 11s.xml">
-      <configuration name="NumberSorterTest.shouldReturnLargestNumber" configurationId="JUnit" />
+    <history-entry file="NumberSorterTest_shouldReturnAllNumbersLargestToSmallestAsString - 2019.02.14 at 11h 56m 51s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAllNumbersLargestToSmallestAsString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberSorterTest - 2019.02.14 at 10h 19m 36s.xml">
-      <configuration name="NumberSorterTest" configurationId="JUnit" />
+    <history-entry file="NumberSorterTest_shouldReturnAllNumbersLargestToSmallestAsString - 2019.02.14 at 13h 11m 45s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAllNumbersLargestToSmallestAsString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberSorterTest - 2019.02.14 at 10h 20m 53s.xml">
-      <configuration name="NumberSorterTest" configurationId="JUnit" />
+    <history-entry file="NumberSorterTest_shouldReturnAverageOfNumbers - 2019.02.14 at 13h 11m 50s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAverageOfNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberSorterTest - 2019.02.14 at 10h 21m 51s.xml">
-      <configuration name="NumberSorterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberSorterTest - 2019.02.14 at 10h 22m 11s.xml">
-      <configuration name="NumberSorterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberSorterTest - 2019.02.14 at 10h 22m 24s.xml">
-      <configuration name="NumberSorterTest" configurationId="JUnit" />
+    <history-entry file="NumberSorterTest_shouldReturnAverageOfNumbers - 2019.02.14 at 13h 11m 58s.xml">
+      <configuration name="NumberSorterTest.shouldReturnAverageOfNumbers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2926000" />
+    <option name="totallyTimeSpent" value="6749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="122" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -265,15 +264,15 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" weight="0.38723403" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.31566265" />
       <window_info anchor="bottom" id="Messages" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3177305" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,20 +293,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/NumberSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -319,10 +304,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NumberSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NumberSorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="344">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

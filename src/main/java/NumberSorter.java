@@ -13,7 +13,6 @@ public class NumberSorter {
     public void addNumber(int number){
         numbers.add(number);
 
-        System.out.println("The number " + number + " has been added.");
     }
 
    public int getSmallestNumber(){
@@ -26,9 +25,38 @@ public class NumberSorter {
         Collections.reverse(numbers);
         return numbers.get(0);
    }
-    public void displayNumbersSmallestToLargest(){}
+    public String getAllNumbersSmallestToLargest(){
+        Collections.sort(numbers);
 
-    public void displayNumbersLargestToSmallest(){}
+        StringBuilder stringBuilder = new StringBuilder();
+        for(Integer value: numbers){
+            stringBuilder.append(value.toString() + " ");
+        }
+
+        return stringBuilder.toString();
+    }
+
+    public String getAllNumbersLargestToSmallest(){
+        Collections.sort(numbers);
+        Collections.reverse(numbers);
+
+        StringBuilder stringBuilder = new StringBuilder();
+        for(Integer value: numbers){
+            stringBuilder.append(value + " ");
+        }
+
+        return stringBuilder.toString();
+    }
+
+
+    public int getAverage(){
+        int sum = 0;
+        for(Integer number : numbers){
+            sum += number;
+        }
+
+        return sum/numbers.size();
+    }
 
     public void displayAverage(){}
 
